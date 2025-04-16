@@ -1,0 +1,87 @@
+https://github.com/AftersTyke/AftersTyke.io/tree/main/* css/style.css */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #333; }
+a { text-decoration: none; color: inherit; }
+
+/* Header */
+.site-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f8f8;
+}
+.logo { height: 40px; margin-right: 1rem; }
+nav a {
+  margin-right: 1rem;
+  padding: .5rem;
+}
+nav a.active,
+nav a:hover { background: #ddd; }
+
+/* Hero section */
+.hero {
+  background: #ffcb05;
+  color: #2a75bb;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.features div {
+  max-width: 200px;
+  text-align: center;
+}
+
+/* Ad Slots */
+.ad-slot {
+  margin: 1rem 0;
+  text-align: center;
+  border: 1px dashed #aaa;
+  padding: 1rem;
+}
+.ad-top, .ad-bottom { height: 90px; }
+.ad-inline { height: 250px; }
+.ad-sidebar {
+  width: 200px;
+  float: right;
+  margin-left: 1rem;
+}
+
+/* Gallery Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card h3 {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Blog Posts */
+.post {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.meta {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f8f8f8;
+  margin-top: 2rem;
+}
